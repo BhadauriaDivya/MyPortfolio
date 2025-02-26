@@ -1,0 +1,88 @@
+.full{
+    position: absolute;
+    float: bottom;
+    width: 100%;
+    height: 100%;
+    background-color: #292e34;
+}
+.xyz{
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10px;
+    height: 75%;
+    background-color: #212429;
+}
+.first{
+    background-color: #2B2E33;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #323641;
+    border-radius: 5px;
+    padding: 10px;
+}
+.listcol{
+    background-color: #4f4e4e;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 4px solid rgb(179, 8, 8);
+    margin: auto;
+    margin-bottom: 2px;
+}
+.inp{
+    text-align: center;
+    width: 500px;
+    height: 40px;
+}
+.butto{
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: red;
+    border-color: red;
+    margin: 10px;
+}
+.boxy{
+    position: relative;
+    margin-top: 10px;
+    /* margin-bottom: 40px; */
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 20px;
+    max-height: 270px;
+    background-color: #2B2E33;
+    overflow: scroll;
+    border-radius: 5px;
+}
+.boxy li{
+    text-align: left;
+    padding-left: 15px;
+}
+.boxy h3{
+    color: #636c79;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2B2E33; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } 
+  .footer{
+    background-color: #30353c;
+    height: 6.5%;
+    padding-top: 20px;
+  }
+

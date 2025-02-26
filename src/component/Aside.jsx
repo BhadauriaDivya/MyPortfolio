@@ -6,7 +6,7 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 
-import Me from './Me.png'
+import Me from './Images/itme.png'
 import { Link } from 'react-router-dom';
 
 const Aside = () => {
@@ -15,10 +15,11 @@ const Aside = () => {
       <aside className="sidebar" data-sidebar>
         <div className='info'>
           <figure className='imgg'>
-             <img src={Me} width={100} alt="That's Me"/>
+             <img src={Me} width={150} height={150} alt="That's Me"/>
           </figure>
           <h2>Divyanshi Bhadauria</h2>
           <div className='box'>Front-End Developer</div>
+          <div className='box'>UI/UX Developer</div>
             <div className="line"></div>
               <ul className='list'>
                 <li className='item'>

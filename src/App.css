@@ -1,5 +1,11 @@
 :root{
 color-scheme: light dark;
+background-image: url(.\component\Images\backgr.jpg);
+background-size: contain;
+}
+*{
+    margin: 0px;
+    padding: 0px;
 }
 main{
     display: flex;

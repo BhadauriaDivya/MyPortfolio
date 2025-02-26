@@ -3,34 +3,39 @@ import React from 'react'
 const About = () => {
   return (
   <div className="about">
-    <h1>About Us</h1>
+    <h1>About Me</h1>
     <div className="yellowline"/>
       <p>
-        I'm Front-End Developer and UI/UX Designer from Delhi, India, studing in KIET Group Of Institution.
-        I enjoy turning complex problems into simple, beautiful and intuitive designs.
+        Hello! Welcome to my Portfolio
+        <br/>
+        My name is Divyanshi Bhadauria. I'm a Front-End Developer and UI/UX Designer, currently studing MCA from KIET Group Of Institution.
+        I have completed my BSc in Mathematics from Swami Shukhdevanand College.
+        I have completed my schooling from Ryan International School.
         <br/><br/>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
-        My aim is to bring across your message and identity in the most creative way.
+        Throughout my academic journey, I have developed a strong foundation in programming languages
+        C and Java, SQL, HTML, CSS, JavaScript, library like ReactJS and frameworks like Bootstrap.
         I would like to creat websites and web design for many brand companies.
       </p>
       <h1>What I've Learn</h1>
       <div className="yellowline"/>
       <div className="learn">
-      <div className="card">
+      <div className="cardss">
         <h3>JavaScript</h3>
       </div>
-      <div className="card">
+      <div className="cardss">
         <h3>ReactJS</h3>
       </div>
-      <div className="card">
+      <div className="cardss">
         <h3>Bootstrap</h3>
       </div>
-      <div className="card">
-        <h3>NodeJS</h3>
+      <div className="cardss">
+        <h3>CSS</h3>
       </div>
-      <div className="card">
-        <h3>MongoDB</h3>
+      <div className="cardss">
+        <h3>HTML</h3>
+      </div>
+      <div className="cardss">
+        <h3>Java</h3>
       </div>
     </div>
   </div>

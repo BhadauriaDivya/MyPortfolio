@@ -40,10 +40,10 @@ const Project = () => {
         </Link>
         </div>
         <div className="card">
-        <Link to="#">
+        <Link to="/project/watch">
             <img src={ToDoList} className='card-img'/>
             <div>
-              <h2>Project</h2>
+              <h2>Watch</h2>
               <p></p>
               Click 
             </div>

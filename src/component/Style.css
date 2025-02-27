@@ -189,6 +189,9 @@ a{
 .nav-list li{
   padding-right: 30px;
 }
+.nav-list li:hover{
+  text-shadow: -1px 1px 10px white;
+}
 .about p{
   margin-top: 40px;
   font-size: var(--fs-5);

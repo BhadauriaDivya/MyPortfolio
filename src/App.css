@@ -1,5 +1,7 @@
 :root{
-color-scheme: light dark;
+/* color-scheme: light dark */
+background-color: rgb(27, 26, 26);
+color: white;
 }
 *{
     margin: 0px;

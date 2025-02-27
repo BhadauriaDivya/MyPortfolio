@@ -14,7 +14,95 @@
     font-size: x-large;
 }
 
+
 .watch button:hover{
     border: 2px solid rgb(218, 215, 222);
     border-radius: 4px;
+}
+.stopwatch{
+    text-align: center;
+}
+.time{
+    position: absolute;
+    left:70vh;
+    top: 130px;
+    font: 6em sans-serif;
+}
+.stopwatch button{
+    position: relative;
+    top: 250px;
+    margin: 40px;
+    width: 130px;
+    height: 60px;
+    border: 0;
+    font-size: large;
+    font-style: italic;
+}
+.tim button{
+    margin: 40px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    font-size: large;
+    font-style: italic;
+}
+.stopwatch button:hover{
+    text-shadow: 0 0 5px whitesmoke;
+}
+.tim button:hover{
+    text-shadow: 0 0 5px whitesmoke;
+}
+.start{
+    background: linear-gradient(to right, rgba(24, 145, 99, 0), rgb(5, 137, 5)) ;
+}
+
+.stop{
+    background: linear-gradient(to right, rgba(145, 24, 24, 0),rgb(255, 0, 0));
+}
+.reset{
+    background: linear-gradient(to right, rgba(138, 43, 226,0),rgb(138, 43, 226));
+}
+.start:hover{
+    box-shadow: 5px 0 100px rgb(5, 137, 5);
+}
+.stop:hover{
+    box-shadow: 5px 0 100px rgb(159, 0, 0);
+}
+.reset:hover{
+    box-shadow: 5px 0 100px rgb(138, 43, 226);
+}
+#stopwatch{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+    background-color: rgb(29, 29, 29,0.3) ;
+}
+.backbtn{
+    background: linear-gradient(to  bottom right, rgba(138, 43, 226,0),rgb(104, 52, 94));
+    color: rgb(131, 126, 126);
+    font-size: larger;
+    font-style: italic;
+    border:0;
+    width: 60px;
+    height: 50px;
+}
+.backbtn:hover{
+    font-size: x-large;
+    width: 100px;
+    color: white;
+    border-radius: 0 0 10px 0;
+}
+.tim{
+    text-align: center;
+    padding-top: 20vh;
+}
+.tim input{
+    text-align: center;
+    margin: 20px;
+}
+#Hours,#Min, #Sec{
+    width: 80px;
+    height: 40px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoBookOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-import MyResume from './Files/Resume.pdf'
+import MyResume from './Files/Divyanshi_Bhadauria_Resume.pdf'
 
 const Resume = ( ) => {
   return (
